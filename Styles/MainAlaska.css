@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*the styles for the body*/
+html {
+    padding-left: 9em;
+    background-color: #173f1f;
+    
+}
+body {
+    border: 3px solid #ffffff;
+    width:92.2%;
+    max-width: 1322px;
+    height: 728.5px;
+    margin: 5em 5em 10em 8em;
+}
+/* the styles for the header */
+header {
+    width: 70.8%;
+    float: left;
+    border-left: 1px solid #ffffff;
+}
+header img {
+    border-left: 1px solid #ffffff;
+    position: absolute;
+    float: left;
+    padding-bottom: 1em;
+}
+.words {
+    position: absolute;
+    z-index: 1;
+    top: 12.5%;
+    left: 45%;
+    color: #ffffff;
+    text-shadow: 3px 3px #fd0000;
+    font-size: 50px;
+}
+.MountainRange {
+    position: absolute;
+    margin-left: 15.1em;
+    z-index: -1;
+    border: 1px solid #ffffff;
+  }
+header h2 {
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    width: 301px;
+    background-color: #003509;
+    text-align: center;
+}
+header h3 {
+    color: #ffffff;
+    border-right: 1px solid #ffffff;
+    width: 301px;
+    height: 77px;
+    background-color: #003509;
+    text-align: center;
+}
+
+/* the styles for the navigation bar*/
+#nav_menu a:link {
+	text-decoration: none;
+}
+#nav_menu ul {
+	list-style-type:none;
+	position: absolute;
+    margin-left: 15.1em;
+    margin-top: 4.9em;
+    width: 53.5%;
+    border: 2px solid #ffffff;
+}
+#nav_menu ul li {
+	float: left;
+    width: 20.85%;
+    height: 20px;
+	display: block;
+	background-color: #004615;
+	text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1.11em;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #003509;
+}
+#nav_menu ul li a {
+	font-weight: bold; 
+	color: white;
+}
+#mobile_menu {
+	display: none;
+}
+
+/*Styles for the Main*/
+main {
+    width: 1323px;
+    margin-left: 0em;
+    float: left;
+    background-color: #ffffff;
+}
+main img {
+    float: right;
+}
+section {
+    float: left;
+    border-left: 1px solid #ffffff;
+    width: 800px;
+    padding-top: .5em;
+    background-color: #ffffff;
+}
+section h1 {
+    padding-right: .5em;
+    padding-left: .5em;
+    color: #4e0000;
+    float: left;
+}
+section h2 {
+    padding-left: .5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+section p {
+    padding-left: 2em;
+}
+/*styles for the aside*/ 
+aside {
+    width: 353px;
+    padding-right: 2em;
+    padding-left: 1em;
+    padding-top: 2em;
+    margin: 20px;
+    float: right;
+    background-color: #ffffff;
+    border-right: 1px solid #ffffff;
+    border-left: 3px solid #003509;
+    padding-bottom: 1.5em;
+}
+aside h3 {
+    padding-bottom: .75em;
+}
+aside img {
+    margin-top: 1em;
+    margin-right: 1.75em;
+    border: 1px solid #000000
+}
+
+/* the styles for the footer */
+footer p 
+{ 
+    clear: both;
+    width: 1281px;
+	text-align: center;
+	background-color: #003509;
+	color: #ffffff;
+    padding: 1em;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
